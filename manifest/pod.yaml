@@ -1,0 +1,8 @@
+apiVersion: v1 # versão da API do Kubernetes
+kind: Pod # tipo do objeto que estamos criando
+metadata: # metadados do Pod 
+  name: pod-1 # nome do Pod que estamos criando
+spec: # especificação do Pod
+  containers: # containers que estão dentro do Pod
+  - name: container-pod1 # nome do container
+    image: nginx:latest # imagem do container
