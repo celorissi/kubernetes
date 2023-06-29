@@ -1,10 +1,10 @@
 apiVersion: v1 # versão da API do Kubernetes
 kind: Pod # tipo de objeto que estamos criando
 metadata: # metadados do Pod
-  name: giropops4 # nome do Pod
+  name: giropops # nome do Pod
 spec: # especificação do Pod
   containers: # lista de containers
-  - name: girus4 # nome do container 
+  - name: girus # nome do container 
     image: ubuntu # imagem do container
     args: # argumentos que serão passados para o container
     - sleep # usando o comando sleep para manter o container em execução
