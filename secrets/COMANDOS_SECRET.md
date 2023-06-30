@@ -7,7 +7,7 @@
 ## Criar secret dockerhub sem arquivo yaml 
 <p> kubectl create secret docker-registry myregistrykey --docker-server=$DOCKER_REGISTRY_SERVER --docker-username=$DOCKER_USER --docker-password=$DOCKER_PASSWORD   --docker-email=$DOCKER_EMAIL </p>
  
-## Ccomando para gerar certificado no linux 
+## Comando para gerar certificado no linux 
 <p> openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout chave-privada.key -out certificado.crt </p>
  
 ## Comando para criar a secret sem manifesto yaml 
